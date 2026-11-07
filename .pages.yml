@@ -1,0 +1,18 @@
+YAML
+media:
+  input: public/images
+  output: /images
+
+content:
+  - name: pages
+    label: Pagina's
+    type: collection
+    path: content/pages
+    format: md
+    fields:
+      - name: title
+        label: Titel
+        type: string
+      - name: body
+        label: Inhoud
+        type: rich-text
